@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      grid-fs-database: images
+      database: mongodemo
+      authentication-database: admin
+      username: admin
+      password: melon
+      host: 13.209.0.61
+      port: 27017
+
+server:
+  port: 30000
